@@ -1,3 +1,9 @@
 jokes:
   categories-url: https://api.chucknorris.io/jokes/categories
   random-joke-url: https://api.chucknorris.io/jokes/random?category={category}
+
+keycloak:
+  auth-server-url: https://auth.hama.digital/auth
+  realm: hama.digital
+  resource: payment-gateway
+  public-client:  true
