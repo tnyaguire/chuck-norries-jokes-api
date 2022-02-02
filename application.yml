@@ -4,6 +4,6 @@ jokes:
 
 keycloak:
   auth-server-url: https://auth.hama.digital/auth
-  realm: hama.digital
-  resource: payment-gateway
+  realm: demo-realm
+  resource: sovtech
   public-client:  true
